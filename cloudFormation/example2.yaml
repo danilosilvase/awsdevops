@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: "2010-09-09"
 Description: A sample template more advanced creating a EC2 Instance and security group
 Resources:
   Ec2Instance:
-    Type: 'AWS::EC2::Instance'
+    Type: AWS::EC2::Instance
     Properties:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
